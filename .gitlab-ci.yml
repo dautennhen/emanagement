@@ -1,0 +1,35 @@
+variables:
+  GIT_STRATEGY: none
+
+before_script:
+  - whoami
+  - pwd
+  - echo -e "Start Script\n"
+  
+stages:
+  - build_develop
+  #- test_master
+  #- deploy_staging
+
+develop:
+  stage: build_develop
+  only:
+    # only:develop means that this build will run only when something is pushed to the develop branch. You can remove this block completely 
+    - develop
+  script:
+    - pwd
+    - whoami
+    - cd /home/phanmem.work/public_html/
+    - pwd
+    #- which ssh-agent
+    # - eval $(ssh-agent -s) && ssh-add <(echo "$SSH_PRIVATE_KEY") && mkdir -p ~/.ssh
+    #- git config --global user.email "admin@vitopmedia.co" && git config --global user.name "root"
+    - git pull
+    - pwd
+    - git status
+    #- chown -R admin:admin /home/admin/web/ework.ebs.digiprojects.top/public_html/
+    - echo -e "build_develop Script\n"
+
+after_script:
+    - pwd
+    - echo -e "Completed Script\n"

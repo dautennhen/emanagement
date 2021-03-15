@@ -1,0 +1,87 @@
+<?php
+
+return array (
+  'accepted' => ':attribute phải được chấp nhận.',
+  'active_url' => ':attribute không phải là một URL hợp lệ.',
+  'after' => ':attribute phải là ngày sau :date.',
+  'after_or_equal' => ':attribute phải là một ngày sau hoặc bằng :date.',
+  'alpha' => ':attribute chỉ có thể chứa các chữ cái.',
+  'alpha_dash' => ':attribute chỉ có thể chứa các chữ cái, số và dấu gạch ngang.',
+  'alpha_num' => ':attribute chỉ có thể chứa các chữ cái và số.',
+  'array' => ':attribute phải là một mảng.',
+  'before' => ':attribute phải là một ngày trước :date.',
+  'before_or_equal' => ':attribute phải là một ngày trước hoặc bằng :date.',
+  'between' => 
+  array (
+    'numeric' => ':attribute phải nằm giữa :min và :max.',
+    'file' => ':attribute phải nằm giữa :min và :max kilobytes.',
+    'string' => ':attribute phải nằm giữa :min và :max ký tự.',
+    'array' => ':attribute phải nằm giữa :min và :max items.',
+  ),
+  'boolean' => ':attribute phải là true hoặc false.',
+  'confirmed' => 'Xác nhận :attribute không khớp',
+  'date' => ':attribute không phải là ngày hợp lệ.',
+  'date_format' => ':attribute không đúng với định dạng :format.',
+  'different' => ':attribute và :other phải khác nhau',
+  'digits' => ':attribute phải là :digits số.',
+  'digits_between' => ':attribute phải nằm giữa :min và :max số.',
+  'dimensions' => ':attribute có kích thước hình ảnh không hợp lệ.',
+  'distinct' => ':attribute có giá trị trùng lặp.',
+  'email' => ':attribute phải là một địa chỉ email hợp lệ.',
+  'exists' => ':attribute đã chọn không hợp lệ',
+  'file' => ':attribute phải là một tệp.',
+  'filled' => ':attribute phải có một giá trị.',
+  'image' => ':attribute phải là một hình ảnh.',
+  'in' => ':attribute đã chọn không hợp lệ.',
+  'in_array' => ':attribute không tồn tại trong :other.',
+  'integer' => ':attribute phải là một số nguyên.',
+  'ip' => ':attribute phải là địa chỉ IP hợp lệ.',
+  'json' => ':attribute phải là một chuỗi JSON hợp lệ.',
+  'max' => 
+  array (
+    'numeric' => ':attribute không được lớn hơn :max.',
+    'file' => ':attribute không được lớn hơn :max kilobytes.',
+    'string' => ':attribute không được lớn hơn :max ký tự.',
+    'array' => ':attribute không được có nhiều hơn :max items.',
+  ),
+  'mimes' => ':attribute phải là một tệp có kiểu: :values.',
+  'mimetypes' => ':attribute phải là một tệp có kiểu: :values.',
+  'min' => 
+  array (
+    'numeric' => ':attribute ít nhất phải là :min.',
+    'file' => ':attribute phải có ít nhất :min kilobytes.',
+    'string' => ':attribute phải có ít nhất :min ký tự.',
+    'array' => ':attribute phải có ít nhất :min items.',
+  ),
+  'not_in' => ':attribute đã chọn không hợp lệ.',
+  'numeric' => ':attribute phải là một số.',
+  'present' => ':attribute phải có tồn tại.',
+  'regex' => ':attribute định dạng không hợp lệ',
+  'required' => ':attribute là bắt buộc',
+  'required_if' => ':attribute là bắt buộc khi :other là :value.',
+  'required_unless' => ':attribute là bắt buộc trừ khi :other nằm trong :values.',
+  'required_with' => ':attribute là bắt buộc khi :values có tồn tại.',
+  'required_with_all' => ':attribute là bắt buộc khi :values có tồn tại.',
+  'required_without' => ':attribute là bắt buộc khi :values không có tồn tại.',
+  'required_without_all' => ':attribute  là bắt buộc khi không có :values tồn tại',
+  'same' => ':attribute và :other phải khớp.',
+  'size' => 
+  array (
+    'numeric' => ':attribute phải là :size.',
+    'file' => ':attribute phải là :size kilobytes.',
+    'string' => ':attribute phải là :size ký tự.',
+    'array' => ':attribute phải chứa :size items.',
+  ),
+  'string' => ':attribute phải là một chuỗi.',
+  'timezone' => ':attribute phải là một múi giờ hợp lệ.',
+  'unique' => ':attribute đã được sử dụng.',
+  'uploaded' => ':attribute đăng tải thất bại.',
+  'url' => ':attribute không phải là url hợp lệ. Ví dụ:http://abc.com',
+  'custom' => 
+  array (
+    'attribute-name' => 
+    array (
+      'rule-name' => 'tùy chỉnh-tin nhắn',
+    ),
+  ),
+);
